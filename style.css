@@ -1,0 +1,45 @@
+#everything {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(128, 128, 128, 0.61);
+    border-radius: 30px;
+    position: absolute;
+    top: calc(100vh - 75%);
+    left: calc(100vw - 60%);
+}
+body {
+    background-color: darkslategray;
+}
+h2 {
+    font-size: 20px;
+}
+#question1_div {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+#question2_div {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+#question3_div {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+#question4_div {
+position: absolute;
+top: 10%;
+left: 10%;
+}
+#question5_div {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    }
+#score_text {
+    position: absolute;
+    left: 70%;
+    top: -7%;
+}

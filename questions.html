@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="questions.js"></script>
+<body onload="hide()">
+    <div id="everything">
+        <div id="question1_div">
+            <h2>How Much HorsePower Does The Ferrari Sf90 Have?</h2>
+            <input type="text" id="question1_input">
+            <br><br>
+            <button onclick="check_question1()">Next</button>
+        </div>
+        <div id="question2_div">
+            <h2>What Car Did Paul Walker Make Famous?</h2>
+            <input type="text" id="question2_input">
+            <br><br>
+            <button onclick="check_question2()">Next</button>
+        </div>
+        <div id="question3_div">
+            <h2>What Engine Is On The Lamborghini Aventador SVJ?</h2>
+            <input type="text" id="question3_input">
+            <br><br>
+            <button onclick="check_question3()">Next</button>
+        </div>
+        <div id="question4_div">
+            <h2>What Engine Is On The Porcshe 911 Turbo S</h2>
+            <input type="text" id="question4_input">
+            <br><br>
+            <button onclick="check_question4()">Next</button>
+        </div>
+        <div id="question5_div">
+            <h2>What is the best-selling car of all time</h2>
+            <input type="text" id="question5_input">
+            <br><br>
+            <button onclick="check_question5()">Next</button>
+        </div>
+        <button id="restart" onclick="restart()">Restart</button>
+        <h3 id="score_text">Score: 0</h3>
+    </div>
+</body>
+</html>
